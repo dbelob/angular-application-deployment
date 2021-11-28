@@ -7,9 +7,9 @@ Application for deployment testing.
 
 ## Requirements
 
-* [JDK 11+](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
-* [Apache Maven 3.6.0+](https://maven.apache.org/download.cgi)
-* [Node.js 12.16.1](https://nodejs.org) (optional)
+* [JDK 17+](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+* [Apache Maven 3.8.0+](https://maven.apache.org/download.cgi)
+* [Node.js 14.18.0+](https://nodejs.org) (optional)
 
 ## Running
 
