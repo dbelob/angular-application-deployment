@@ -12,7 +12,7 @@
         <app.finalName>application-deployment</app.finalName>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.build.javaVersion>11</project.build.javaVersion>
+        <project.build.javaVersion>17</project.build.javaVersion>
 
         <assembly.plugin.version>3.3.0</assembly.plugin.version>
         <clean.plugin.version>3.1.0</clean.plugin.version>
