@@ -1,6 +1,6 @@
-Application Deployment
+Angular Application Deployment
 
-Application deployment test.
+Angular application deployment test.
 
 1. Run in console
    runme.bat (Windows)
@@ -13,4 +13,4 @@ Application deployment test.
 
 4. Ctrl-C in console to cancel
 
-WWW: https://github.com/dbelob/application-deployment
+WWW: https://github.com/dbelob/angular-application-deployment

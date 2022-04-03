@@ -12,7 +12,7 @@
             <outputFileNameMapping>${artifact.build.finalName}.${artifact.extension}</outputFileNameMapping>
             <useProjectArtifact>false</useProjectArtifact>
             <includes>
-                <include>application-deployment:application-deployment-server</include>
+                <include>angular-application-deployment:angular-application-deployment-server</include>
             </includes>
         </dependencySet>
     </dependencySets>

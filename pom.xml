@@ -2,14 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>application-deployment</groupId>
-    <artifactId>application-deployment-parent</artifactId>
+    <groupId>angular-application-deployment</groupId>
+    <artifactId>angular-application-deployment-parent</artifactId>
     <version>1.0.472-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>ApplicationDeployment Parent</name>
+    <name>AngularApplicationDeployment Parent</name>
 
     <properties>
-        <app.finalName>application-deployment</app.finalName>
+        <app.finalName>angular-application-deployment</app.finalName>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.javaVersion>17</project.build.javaVersion>
@@ -39,13 +39,13 @@
     </properties>
 
     <modules>
-        <module>application-deployment-server</module>
-        <module>application-deployment-web</module>
-        <module>application-deployment-distrib</module>
+        <module>angular-application-deployment-server</module>
+        <module>angular-application-deployment-web</module>
+        <module>angular-application-deployment-distrib</module>
     </modules>
 
     <build>
-        <finalName>application-deployment</finalName>
+        <finalName>angular-application-deployment</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -164,8 +164,8 @@
     </dependencyManagement>
 
     <scm>
-        <connection>scm:git:https://github.com/dbelob/application-deployment</connection>
-        <developerConnection>scm:git:https://github.com/dbelob/application-deployment</developerConnection>
+        <connection>scm:git:https://github.com/dbelob/angular-application-deployment</connection>
+        <developerConnection>scm:git:https://github.com/dbelob/angular-application-deployment</developerConnection>
         <tag>HEAD</tag>
     </scm>
 </project>

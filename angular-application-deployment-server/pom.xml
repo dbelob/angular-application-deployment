@@ -3,14 +3,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>application-deployment</groupId>
-        <artifactId>application-deployment-parent</artifactId>
+        <groupId>angular-application-deployment</groupId>
+        <artifactId>angular-application-deployment-parent</artifactId>
         <version>1.0.472-SNAPSHOT</version>
     </parent>
 
-    <artifactId>application-deployment-server</artifactId>
+    <artifactId>angular-application-deployment-server</artifactId>
     <packaging>war</packaging>
-    <name>ApplicationDeployment Server</name>
+    <name>AngularApplicationDeployment Server</name>
 
     <dependencyManagement>
         <dependencies>
@@ -68,7 +68,7 @@
                             <outputDirectory>${project.build.directory}/classes/static/</outputDirectory>
                             <resources>
                                 <resource>
-                                    <directory>${project.parent.basedir}/application-deployment-web/target/classes/static/
+                                    <directory>${project.parent.basedir}/angular-application-deployment-web/target/classes/static/
                                     </directory>
                                 </resource>
                             </resources>
@@ -81,8 +81,8 @@
 
     <dependencies>
         <dependency>
-            <groupId>application-deployment</groupId>
-            <artifactId>application-deployment-web</artifactId>
+            <groupId>angular-application-deployment</groupId>
+            <artifactId>angular-application-deployment-web</artifactId>
             <version>${project.version}</version>
             <scope>runtime</scope>
         </dependency>

@@ -3,14 +3,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>application-deployment</groupId>
-        <artifactId>application-deployment-parent</artifactId>
+        <groupId>angular-application-deployment</groupId>
+        <artifactId>angular-application-deployment-parent</artifactId>
         <version>1.0.472-SNAPSHOT</version>
     </parent>
 
-    <artifactId>application-deployment-distrib</artifactId>
+    <artifactId>angular-application-deployment-distrib</artifactId>
     <packaging>pom</packaging>
-    <name>ApplicationDeployment Distribution</name>
+    <name>AngularApplicationDeployment Distribution</name>
 
     <build>
         <finalName>${app.finalName}-${project.version}</finalName>
@@ -43,8 +43,8 @@
 
     <dependencies>
         <dependency>
-            <groupId>application-deployment</groupId>
-            <artifactId>application-deployment-server</artifactId>
+            <groupId>angular-application-deployment</groupId>
+            <artifactId>angular-application-deployment-server</artifactId>
             <type>war</type>
             <version>${project.version}</version>
         </dependency>
