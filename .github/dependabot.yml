@@ -5,7 +5,7 @@ updates:
   schedule:
     interval: "daily"
 - package-ecosystem: "npm"
-  directory: "/application-deployment-web"
+  directory: "/angular-application-deployment-web"
   schedule:
     interval: "daily"
 - package-ecosystem: "github-actions"
