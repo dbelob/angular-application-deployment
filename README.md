@@ -1,9 +1,9 @@
-# Application deployment test
-Application for deployment testing.
+# Angular application deployment test
+Angular application for deployment testing.
 
-<a href="https://github.com/dbelob/application-deployment/actions"><img alt="GitHub Actions status" src="https://github.com/dbelob/application-deployment/workflows/Build/badge.svg"></a>
-[![codecov](https://codecov.io/gh/dbelob/application-deployment/branch/master/graph/badge.svg)](https://codecov.io/gh/dbelob/application-deployment)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=dbelob_application-deployment&metric=alert_status)](https://sonarcloud.io/dashboard?id=dbelob_application-deployment)
+<a href="https://github.com/dbelob/angular-application-deployment/actions"><img alt="GitHub Actions status" src="https://github.com/dbelob/angular-application-deployment/workflows/Build/badge.svg"></a>
+[![codecov](https://codecov.io/gh/dbelob/angular-application-deployment/branch/master/graph/badge.svg)](https://codecov.io/gh/dbelob/angular-application-deployment)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=dbelob_angular-application-deployment&metric=alert_status)](https://sonarcloud.io/dashboard?id=dbelob_angular-application-deployment)
 
 ## Requirements
 
@@ -21,7 +21,7 @@ Application for deployment testing.
 
 1. Change directory:
 
-    `cd application-deployment-server`
+    `cd angular-application-deployment-server`
 
 1. From the command line with *Maven*:
 
@@ -41,7 +41,7 @@ Application for deployment testing.
 
 1. Change directory:
 
-    `cd application-deployment-server`
+    `cd angular-application-deployment-server`
 
 1. From the command line with *Maven*:
 
@@ -49,7 +49,7 @@ Application for deployment testing.
 
 1. Change directory:
 
-    `cd application-deployment-web`
+    `cd angular-application-deployment-web`
 
 1. From the command line with *npm*:
 
@@ -67,19 +67,19 @@ Application for deployment testing.
 
 1. Change directory:
 
-    `cd application-deployment-distrib/target`
+    `cd angular-application-deployment-distrib/target`
 
 1. Find distribution file:
 
-    `application-deployment-<version>.zip`
+    `angular-application-deployment-<version>.zip`
 
 1. Extract files from ZIP, for example:
 
-    `unzip application-deployment-<version>.zip`
+    `unzip angular-application-deployment-<version>.zip`
 
 1. Change directory:
 
-    `cd application-deployment-<version>`
+    `cd angular-application-deployment-<version>`
 
 1. Run:
 
