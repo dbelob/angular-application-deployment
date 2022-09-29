@@ -26,8 +26,9 @@
         <war.plugin.version>3.3.2</war.plugin.version>
 
         <spring.boot.version>2.7.4</spring.boot.version>
-        <springfox.swagger>3.0.0</springfox.swagger>
+        <springfox-swagger.version>3.0.0</springfox-swagger.version>
 
+        <node.version>v16.13.2</node.version>
         <ng.build.arguments>-- --configuration=production</ng.build.arguments>
 
         <sonar.coverage.exclusions>
