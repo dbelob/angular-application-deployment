@@ -4,7 +4,7 @@
 
     <groupId>angular-application-deployment</groupId>
     <artifactId>angular-application-deployment-parent</artifactId>
-    <version>1.0.815-SNAPSHOT</version>
+    <version>1.0.816-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>AngularApplicationDeployment Parent</name>
 
