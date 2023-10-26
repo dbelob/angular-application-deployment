@@ -1,14 +1,18 @@
 version: 2
 updates:
-- package-ecosystem: "maven"
-  directory: "/"
-  schedule:
-    interval: "daily"
-- package-ecosystem: "npm"
-  directory: "/angular-application-deployment-web"
-  schedule:
-    interval: "daily"
-- package-ecosystem: "github-actions"
-  directory: "/"
-  schedule:
-    interval: "daily"
+  - package-ecosystem: "maven"
+    directory: "/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "npm"
+    directory: "/angular-application-deployment-web"
+    schedule:
+      interval: "daily"
+    groups:
+      angular:
+        patterns:
+          - "@angular*"
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
