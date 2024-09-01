@@ -1,4 +1,7 @@
 Angular Application Deployment
 
+Version 1.1.0 - September 1, 2024
+* Reducing the build size.
+
 Version 1.0.0 - July 5, 2020
 * First release.
