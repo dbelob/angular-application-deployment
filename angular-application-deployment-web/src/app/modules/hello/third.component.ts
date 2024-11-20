@@ -2,8 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { HelloService } from '../../shared/services/hello.service';
 
 @Component({
-  selector: 'app-third',
-  templateUrl: './third.component.html'
+    selector: 'app-third',
+    templateUrl: './third.component.html',
+    standalone: false
 })
 export class ThirdComponent implements OnInit {
   public message: string;
