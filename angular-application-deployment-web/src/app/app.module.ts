@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, provideZoneChangeDetection } from '@angular/core';
-import { HttpClientModule } from '@angular/common/http';
+import { provideHttpClient } from '@angular/common/http';
 
 import { AppRoutingModule } from './modules/routing/app-routing.module';
 import { HelloModule } from './modules/hello/hello.module';
@@ -13,11 +13,11 @@ import { HelloService } from './shared/services/hello.service';
   ],
   imports: [
     BrowserModule,
-    HttpClientModule,
     AppRoutingModule,
     HelloModule
   ],
   providers: [
+    provideHttpClient(),
     provideZoneChangeDetection(),
     HelloService
   ],
