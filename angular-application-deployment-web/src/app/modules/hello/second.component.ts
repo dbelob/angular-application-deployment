@@ -1,9 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
 import { HelloService } from '../../shared/services/hello.service';
 
 @Component({
     selector: 'app-second',
     templateUrl: './second.component.html',
+    changeDetection: ChangeDetectionStrategy.Eager,
     standalone: false
 })
 export class SecondComponent implements OnInit {
