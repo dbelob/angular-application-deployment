@@ -1,11 +1,12 @@
 import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
 import { HelloService } from '../../shared/services/hello.service';
+import { RouterLink } from '@angular/router';
 
 @Component({
     selector: 'app-third',
     templateUrl: './third.component.html',
     changeDetection: ChangeDetectionStrategy.Eager,
-    standalone: false
+    imports: [RouterLink]
 })
 export class ThirdComponent implements OnInit {
   public message: string;

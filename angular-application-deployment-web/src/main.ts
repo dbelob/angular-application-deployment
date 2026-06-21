@@ -1,12 +1,22 @@
-import { enableProdMode } from '@angular/core';
-import { platformBrowser } from '@angular/platform-browser';
+import { enableProdMode, provideZoneChangeDetection } from "@angular/core";
+import { bootstrapApplication } from "@angular/platform-browser";
+import { provideHttpClient, withXhr } from "@angular/common/http";
+import { provideRouter } from "@angular/router";
 
-import { AppModule } from './app/app.module';
-import { environment } from './environments/environment';
+import { environment } from "./environments/environment";
+import { AppComponent } from "./app/app.component";
+import { HelloService } from "./app/shared/services/hello.service";
+import { routes } from "./app/app.routes";
 
 if (environment.production) {
   enableProdMode();
 }
 
-platformBrowser().bootstrapModule(AppModule)
-  .catch(err => console.error(err));
+bootstrapApplication(AppComponent, {
+  providers: [
+    provideRouter(routes),
+    provideHttpClient(withXhr()),
+    provideZoneChangeDetection(),
+    HelloService,
+  ],
+}).catch((err) => console.error(err));
