@@ -6,15 +6,13 @@ import { SecondComponent } from './second.component';
 import { ThirdComponent } from './third.component';
 
 @NgModule({
-  declarations: [
-    FirstComponent,
-    SecondComponent,
-    ThirdComponent
-  ],
-  imports: [
-    CommonModule,
-    RouterModule
-  ]
+    imports: [
+        CommonModule,
+        RouterModule,
+        FirstComponent,
+        SecondComponent,
+        ThirdComponent
+    ]
 })
 export class HelloModule {
 }
