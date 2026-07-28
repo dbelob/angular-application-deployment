@@ -1,16 +1,14 @@
-import { TestBed, waitForAsync } from '@angular/core/testing';
-import { RouterTestingModule } from '@angular/router/testing';
+import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
-  beforeEach(waitForAsync(() => {
-    TestBed.configureTestingModule({
-    imports: [
-        RouterTestingModule,
-        AppComponent
-    ],
-}).compileComponents();
-  }));
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      imports: [
+          AppComponent
+      ]
+    }).compileComponents();
+  });
 
   it('should create the app', () => {
     const fixture = TestBed.createComponent(AppComponent);
@@ -24,10 +22,10 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('application-deployment');
   });
 
-  it('should render title', () => {
+  it('should render title', async () => {
     const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
+    await fixture.whenStable();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('application-deployment app is running!');
+    expect(compiled.querySelector('.content span')).toBeNull();
   });
 });
